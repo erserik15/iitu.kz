@@ -1,0 +1,35 @@
+.navbar{
+    height: 40px;
+    background-color: #992439;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+
+  }
+
+.logo-img{
+    height: 3vw;
+    width: auto;
+}
+
+.li-nav {
+    display: none;
+}
+
+.icon{
+    position: absolute;
+    right: 3vw;
+    
+  }
+
+.menu-icon {
+
+    width: 30px; 
+    height: 20px; 
+    flex-shrink: 0;
+    background: url('./static/menu.svg') no-repeat;
+    background-size: cover;
+    
+}

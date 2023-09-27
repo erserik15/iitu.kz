@@ -79,3 +79,7 @@ body{
     right: 2vw;
 
   }
+
+  .menu-icon {
+    display: none; 
+}
