@@ -73,7 +73,7 @@ body{
     font-weight: bold;
   }
 
-  .lang{
+.lang{
  
     position: absolute;
     right: 2vw;
@@ -81,12 +81,36 @@ body{
   }
 
 .menu-icon {
-    display: none; 
+    
 }
 
 .div_main {
-  display: none; 
+  
 }
+
+.container{
+    padding-left: 4vw;
+    padding-right: 4vw;
+    background-color: #f4f4f4;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 751px) {
   .div_get_c {
