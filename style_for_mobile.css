@@ -14,22 +14,55 @@
     display: none;
 }
 
-.icon{
-  height: 20px;
-  width: 20px;
 
-  position: absolute;
-  right: 3vw;
-  z-index: 100;
-    
-  }
+.li-nav1 {
+    display: none;
+}
 
-.menu-icon {
-
+.menu_svg {
     width: 30px; 
     height: 20px; 
     flex-shrink: 0;
     background: url('./static/menu.svg') no-repeat;
     background-size: cover;
+
+    position: absolute;
+    right: 20px; 
+    top: 10px; 
+}
+
+.logo{
+    position: absolute;
+    left: 3vw;
     
+}
+
+.logo-img{
+    height: 3vw;
+    width: auto;
+
+}
+
+.div_main {
+    max-width: 100%;
+    background: #FCFCFC;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Выравнивание контента по верху */
+    height: auto; /* Удалите жестко заданную высоту */
+}
+
+.image-container {
+    width: 90%; /* Регулируйте ширину контейнера по вашему усмотрению */
+    max-width: 320px; /* Максимальная ширина контейнера */
+    position: relative;
+}
+
+.iitu_photo {
+    width: 100%;
+    height: auto; /* Автоматическое изменение высоты для сохранения пропорций */
+    object-fit: contain; /* Сохранение пропорций и помещение изображения внутри контейнера */
+    position: absolute;
+    top: 0;
+    left: 0;
 }
