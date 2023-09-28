@@ -55,6 +55,8 @@
 .image-container {
     width: 90%; /* Регулируйте ширину контейнера по вашему усмотрению */
     position: relative;
+    max-width: 100%;
+    width: 100%;
 }
 
 .iitu_photo {
@@ -64,4 +66,26 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.text_main {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: #000;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 2rem; /* Используйте относительную единицу измерения (например, rem) */
+    font-weight: 400;
+    line-height: normal;
+}
+.text_1 {
+    align-items: center; /* Выравнивание текста по центру по горизонтали */
+
+    position: absolute;
+    top: 520px;
 }
