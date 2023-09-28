@@ -80,6 +80,10 @@ body{
 
   }
 
-  .menu-icon {
+.menu-icon {
     display: none; 
+}
+
+.div_main {
+  display: none; 
 }
