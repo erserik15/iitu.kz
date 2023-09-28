@@ -50,6 +50,7 @@
     justify-content: center;
     align-items: flex-start; /* Выравнивание контента по верху */
     height: auto; /* Удалите жестко заданную высоту */
+    position: relative;
 }
 
 .image-container {
@@ -70,22 +71,76 @@
 
 .text_main {
     width: 100%;
-    max-width: 360px;
     height: auto;
-    display: flex;
-    flex-direction: column;
+
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
     color: #000;
     font-family: 'SF Pro Display', sans-serif;
-    font-size: 2rem; /* Используйте относительную единицу измерения (например, rem) */
+    font-size:6vw;
     font-weight: 400;
     line-height: normal;
 }
+
+.text_main_2 {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: #454545;
+    font-family: 'Proxima Nova', sans-serif; /* Укажите шрифт 'Proxima Nova' и, если он недоступен, используйте системные шрифты sans-serif */
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    top: 3vw;
+}
+
 .text_1 {
-    align-items: center; /* Выравнивание текста по центру по горизонтали */
+    
 
     position: absolute;
-    top: 520px;
+    top: 130vw;
+    right: 10px;
+    margin: 5vw;
+}
+.text_2 {
+    
+
+    position: absolute;
+    top: 148vw;
+    right: 10px;
+    margin: 5vw;
+}
+
+.div_get_c {
+    width: 80%;
+    height: 15vw;
+    border-radius: 1.25vw;
+    background: #8F1812;
+    box-shadow: 0px 0px 6vw 0px rgba(0, 0, 0, 0.10);
+
+    align-items: center;
+    text-align: center;
+    
+    position: relative;
+    top: 195vw;
+    right: 10vw;
+    left: 10vw;
+}
+
+.text_get_c {
+    
+    color: #FFF;
+    font-family: 'SF Pro Display', sans-serif; /* Укажите шрифт 'SF Pro Display' и, если он недоступен, используйте системные шрифты sans-serif */
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    top: 4vw;
+
+    text-decoration: none;
 }
